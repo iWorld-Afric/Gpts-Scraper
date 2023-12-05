@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed:
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/iWorld-Afric/Gpts-Scraper
    ```
 2. **Navigate to the project directory**:
    ```bash
@@ -50,9 +50,8 @@ To use OpenAI's models with the scraper, you need to set up your OpenAI API keys
 ## Usage
 To run the scraper, use the following command from the project root:
 ```bash
-python cli/[script-name].py
+python cli/commands.py
 ```
-Replace `[script-name]` with the appropriate script file name located in the `cli` directory.
 
 ## Configuration
 Modify the configuration files in the `config` directory to customize the scraper's behavior according to your requirements.
@@ -60,9 +59,7 @@ Modify the configuration files in the `config` directory to customize the scrape
 ## Contributing
 We encourage contributions! Please read our contributing guidelines (CONTRIBUTING.md) for more details on how to contribute to the project.
 
-## License
-[Specify the License Here]
+
 
 ---
 
-Please replace `[repository-url]` and `[script-name]` with the actual repository URL and script names. Add the appropriate license information in the License section.
